@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+	
+
+body {
+	background: #e91e63;
+	color: #e91e63;
+	font-family:"Poppins",sans-serif;
+	font-size: 14px;
+	accent-color: #e91e63;
+  }
+  :root {
+	--nav-bg:#eb155c;
+	--nav-logo: rgb(255, 240, 240);
+	--nav-link: #eeb4b4;
+	--nav-link-hover: #fff;
+	--nav-border: #d30101;
+	--nav-btn: #e91e63;
+  }
+
+  form h3{
+	font-size: 20px !important;
+	font-family: "Poppins",sans-serif !important;
+  }
+  .nav {
+	display: flex;
+	font-family: "Poppins", sans-serif;
+	background-color: var(--nav-bg);
+	color: var(--nav-color);
+	margin-bottom: 1em;
+	border-bottom: var(--nav-border) solid 1px;
+  }
+  .quiz-01{
+	  justify-content: center !important;
+	  color: whitesmoke;
+	  font-weight: bold;
+	  font-size: 35px;
+	  padding:5px;
+	  margin: 4px;
+	  display: inline-block;
+  }
+  .options{
+	background: #ffffffe4;
+    border: 1px solid #ff2e74;
+    border-radius: 5px;
+    padding: 6px 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+  }
+  
+  #container {
+	width: 60%;
+	background: rgb(255, 242, 242);
+	margin: 20px auto;
+	overflow: auto;
+	padding: 25px;
+  }
+  
+  /*header {
+	text-align: center;
+	border-bottom: #fff dashed 1px;
+  }
+  
+  header h1,
+  header p {
+	margin :0;
+	padding: 0;
+  }
+  
+  header p {
+	margin-top: 5px;
+	color: #000;
+  }
+  */
+  input[type="radio"]
+  section {
+	min-height: 400px;
+  }
+  
+  input[type="submit"] {
+	background: #e91e63;
+	border: 0;
+	color: white;
+	padding: 10px 15px;
+	cursor: pointer;
+	width: 100%;
+	font-family: "Poppins",sans-serif;
+	font-size: 17px;
+  }
+  input[type="submit"]:hover {
+	background: #9c1f49;
+	border: 0;
+	color: white;
+	padding: 10px 15px;
+	cursor: pointer;
+	width: 100%;
+  }
+  
+  #results{
+	background: #e91e63;
+	padding: 10px;
+	margin: 10px 0;
+  }
+  #results {
+	color: whitesmoke;
+	font-weight: bold; 
+	font-family: "Poppins",sans-serif;
+  }
+  
+/*
+body {
+			background-color:#e91e63;
+			font-family:"Poppins",sans-serif;
+			text-align: center;
+    }
+    
+
+
+:root {
+  --nav-bg:#eb155c;
+  --nav-logo: rgb(255, 240, 240);
+  --nav-link: #eeb4b4;
+  --nav-link-hover: #fff;
+  --nav-border: #d30101;
+  --nav-btn: #e91e63;
+}
+.nav {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--nav-bg);
+  color: var(--nav-color);
+  margin-bottom: 1em;
+  border-bottom: var(--nav-border) solid 1px;
+}
+.quiz-01{
+    justify-content: center !important;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 35px;
+    padding:5px;
+    margin: 4px;
+    display: inline-block;
+}
+
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.nav-list a {
+  color: var(--nav-link);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: var(--nav-link-hover);
+}
+form {
+			background-color: #fff;
+			max-width: 500px;
+			margin: 50px auto;
+            margin-top: 10px;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #e91e63;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+	
+		button {
+			background-color: #e91e63;
+			border: 1px solid #ae003a;
+			border-radius: 2px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+            color: white;
+		}
+        button:hover{
+            background-color: rgb(255, 255, 255);
+            color:red;
+            font-family: inherit;
+        }
+	*/
